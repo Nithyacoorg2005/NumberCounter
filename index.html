@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fliping Book</title>
+    <link rel="stylesheet" type="text/css" href="styles.css"/>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <img
+          src="https://images.pexels.com/photos/20716651/pexels-photo-20716651/free-photo-of-facebook-logo-on-smartphone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <h1 class="counter">5659</h1>
+        <p>Facebook</p>
+      </div>
+      <div>
+        <img
+          src="https://images.pexels.com/photos/20716657/pexels-photo-20716657/free-photo-of-whatsapp-logo-on-smartphone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <h1 class="counter">9865</h1>
+        <p>Whatsapp</p>
+      </div>
+      <div>
+        <img
+          src="https://images.pexels.com/photos/20716648/pexels-photo-20716648/free-photo-of-youtube-logo-on-smartphone.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <h1 class="counter">8541</h1>
+        <p>Youtube</p>
+      </div>
+      <div>
+        <img
+          src="https://images.pexels.com/photos/20716655/pexels-photo-20716655/free-photo-of-instagram-logo-on-smartphone-screen.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+        />
+        <h1 class="counter">2574</h1>
+        <p>Instagram</p>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"
+      integrity="sha512-ZKNVEa7gi0Dz4Rq9jXcySgcPiK+5f01CqW+ZoKLLKr9VMXuCsw3RjWiv8ZpIOa0hxO79np7Ec8DDWALM0bDOaQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"
+      integrity="sha512-d8F1J2kyiRowBB/8/pAWsqUl0wSEOkG5KATkVV4slfblq9VRQ6MyDZVxWl2tWd+mPhuCbpTB4M7uU/x9FlgQ9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script>
+      $('.counter').counterUp({
+    delay: 15,
+    time: 1000
+});
+    </script>
+
+
+  </body>
+</html>

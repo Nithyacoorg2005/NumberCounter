@@ -1,0 +1,31 @@
+*{
+  padding:0px;
+  margin:0px;
+  box-sizing: border-box;
+}
+body{
+  width:100%;
+  height:100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: lavenderblush;
+}
+.container{
+  width:80%;
+  height:200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container div{
+  flex-basis: 20%;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding:10px;
+  border-bottom: 3px solid gold;
+}
+.container div img{
+  width:65%;
+  border-radius: 10%;
+}
